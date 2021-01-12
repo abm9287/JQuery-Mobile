@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+    <title>Pruebas de JQuery</title>
+</head>
+
+<body>
+
+    <div data-role="page">
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#">1er</a></li>
+                <li><a href="#">2do</a></li>
+                <li><a href="#">3er</a></li>
+                <li><a href="#">4to</a></li>
+            </ul>
+        </div>
+
+        <div data-role="content">
+            <form action="" method="">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name">
+                <label for="name">Apellido:</label>
+                <input type="text" name="name" id="name">
+                <label for="name">Correo Electronico:</label>
+                <input type="text" name="name" id="name">
+                <label for="name">Rango:</label>
+                <input type="range" min="0" max="10" name="calificacion">
+                <label for="name">Region</label>
+                <select name="latinoAmerica" id="Latinoamerica">
+                    <option value="1">Ecuador</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Bolivia</option>
+                </select>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo" data-role="slider">
+                    <option value="m">M</option>
+                    <option value="f">F</option>
+                </select>
+            </form>
+                <a href="#" data-role="button" data-icon="star">Registrar</a>
+                <a href="#" data-role="button" data-icon="star" data-theme="b">Salir</a>
+</body>
+
+</html>
